@@ -60,7 +60,7 @@ nav a:hover{
 }
 
 .produtos li:hover h2 {
-    font-size: 34px;
+    font-size: 31px;
 }
 
 .produtos li:active {
@@ -94,12 +94,9 @@ footer {
     margin-top: 20px;
 }
 
-main {
-    
-}
-
+/*css da pagina de contato*/
 form {
-    margin: 40px 0;
+    margin: 40px 0;    
 }
 
 form label, form legend{
@@ -227,6 +224,10 @@ td, th {
 
 .itens:first-child {
     font-weight: bolder;
+}
+
+.itens:before{
+    content: "★";
 }
 
 .imagem-beneficios{
